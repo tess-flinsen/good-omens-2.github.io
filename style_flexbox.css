@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Lucida';
+    font-weight: thin;
+    font-size: 20px;
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.num_1 {
+    flex: 1;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.mainbody {
+    flex: 3;
+    display: flex;
+    flex-flow: row wrap;
+}
+.num_2 {
+    flex: 1;
+    text-align: right;
+    padding: 10px;
+}
+
+.midbody {
+    flex: 3;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.centralbody {
+    flex: 2;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.num_3{
+    flex: 2;
+    text-align: center;
+    padding: 10px;
+}
+
+.num_4{
+    flex: 50%;
+    padding: 10px;
+}
+.num_5{
+    flex: 50%;
+    padding: 10px;
+}
+
+.picture{
+    flex-direction: column; 
+    max-width: 100%; 
+    max-height: 100%;
+    display: block; 
+}
+
+.num_6 {
+    flex: 1;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.alignright {
+    text-align: right;
+}
+
+.alignleft {
+	text-align: left;
+}
+
+.central {
+    display: flex;
+    align-items: center;  
+}
+
+
+.no_bullets {
+    list-style-type: none;
+}  
+
+.spaced-list li{
+    margin-bottom: 10px;
+}
+
+.container div{
+    max-width: 100%;
+    overflow: auto;
+}
+
+.quote {
+    font-family: 'Andale Mono';
+    font-weight: 50;
+    font-size: 17px;
+}
+
+.blue {
+    background-color: #DAE3FF;
+}
+.green {
+    background-color: #DAFFE1;
+}
+.red {
+    background-color: #FFE4DC;
+}

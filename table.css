@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+.col1 {
+    width: 25%;
+}
+
+.col2 {
+    width: 50%;
+}
+
+.col3 {
+    width: 25%;
+}
+.padded {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.no_bullets {
+    list-style-type: none;
+}  
+
+.spaced-list li{
+    margin-bottom: 10px;
+}
+
+.uppertable {
+    width: 100%;
+    padding: 10px;
+}
+
+.quote {
+    font-family: 'Andale Mono';
+    font-weight: 50;
+    font-size: 17px;
+}
+
+.alignright {
+    text-align: right;
+}
+
+.alignleft {
+	text-align: left;
+}
+
+.central {
+    text-align: center;
+}
+
+.num_3 {
+    font-family: 'Lucida';
+    font-weight: thin;
+    font-size: 20px;
+}
+
+.num_6 h2 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.blue {
+    background-color: #DAE3FF;
+}
+.green {
+    background-color: #DAFFE1;
+}
+.red {
+    background-color: #FFE4DC;
+}
+.white {
+    background-color: white;
+}
